@@ -1,4 +1,4 @@
-.l2 {
+.l3 {
   &__contenedor {
     border: 5px solid #e1bee7;
     background-color: #fff1ff;
@@ -7,8 +7,6 @@
     grid-template-columns: 150px 150px 150px;
     grid-auto-rows: 150px;
     height: 600px;
-    // justify-content: center;
-    // align-content: center;
     place-content: center;
 
     &__item {
@@ -17,7 +15,8 @@
     }
   }
 }
-.reto-l2 {
+
+.reto-l3 {
   &__contenedor {
     width: 300px;
     border: 5px solid #e1bee7;
