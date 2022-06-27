@@ -4,8 +4,8 @@ import { NavLessons } from "../../components/NavLessons";
 export const LayoutLessons = ({ children }) => {
   return (
     <div>
-      {children}
       <NavLessons />
+      {children}
     </div>
   );
 };
