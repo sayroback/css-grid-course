@@ -5,6 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { Home } from "./pages/Home";
 import { Lessons } from "./pages/Lessons";
 import { Lessons1 } from "./pages/Lessons/Lessons1";
+import { Lessons2 } from "./pages/Lessons/Lessons2";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="lessons">
           <Route path="1" element={<Lessons1 />} />
+          <Route path="2" element={<Lessons2 />} />
           <Route index element={<Lessons />} />
         </Route>
       </Routes>

@@ -11,6 +11,9 @@ export const NavLessons = () => {
         <li>
           <NavLink to="/lessons/1">Lessons1</NavLink>
         </li>
+        <li>
+          <NavLink to="/lessons/2">Lessons2</NavLink>
+        </li>
       </ol>
     </nav>
   );
