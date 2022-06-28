@@ -5,7 +5,8 @@ export const Navbar = () => {
   return (
     <div>
       <nav>
-        <Link to="/">Home</Link> | <Link to="/lessons">Lessons</Link>
+        <Link to="/">Home</Link> | <Link to="/lessons">Lessons</Link> |{" "}
+        <Link to="/lessons">Project</Link>
       </nav>
     </div>
   );
