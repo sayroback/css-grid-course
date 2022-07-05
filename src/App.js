@@ -9,6 +9,7 @@ import { Lessons2 } from "./pages/Lessons/Lessons2";
 import { Lessons3 } from "./pages/Lessons/Lessons3";
 import { Lessons4 } from "./pages/Lessons/Lessons4";
 import { Lessons5 } from "./pages/Lessons/Lessons5";
+import { Project } from "./pages/Project";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="5" element={<Lessons5 />} />
           <Route index element={<Lessons />} />
         </Route>
+        <Route path="project" element={<Project />} />
       </Routes>
     </BrowserRouter>
   );
