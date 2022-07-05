@@ -5,7 +5,7 @@ import { LessonUI } from "./LessonUI";
 export const LessonsPro1 = () => {
   return (
     <LayoutLessonsPro>
-      <LessonUI Lesson={"1"} Title={"Propiedades del contenedor"} />
+      <LessonUI Lesson={"1--pro"} Title={"Propiedades del contenedor"} />
     </LayoutLessonsPro>
   );
 };

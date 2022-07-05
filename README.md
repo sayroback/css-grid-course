@@ -4,7 +4,7 @@
 
 Es una especificación de CSS por la necesidad de hacer layouts más dinámicos. Introdujo un sistema de grillas con columnas (column) y filas (row), usamos esos dos ejes y espacios para ubicar elementos.
 
-## \***\*Conceptos para comenzar\*\***
+## Conceptos para comenzar
 
 - Container: elemento que se convertirá en una grilla.
 - Item: Son los elementos que están en el contenedor y se convierten en Grid Item pueden ser (botones, links, imágenes y videos).
@@ -21,7 +21,9 @@ Es una especificación de CSS por la necesidad de hacer layouts más dinámicos.
 
 ![Untitled](CSS%20Grid%204729379fd2af441a8b182a50d0bd904b/Untitled%202.png)
 
-## \***\*Propiedades del contenedor\*\***
+---
+
+## Propiedades del contenedor
 
 - Display grid: para decirle al contenedor que tenga esa propiedad y así aplicarle estilos de grid
 
@@ -69,7 +71,9 @@ column-grap: 15px;
 grap: 15px;
 ```
 
-## \***\*Propiedades de alineación\*\***
+---
+
+## Propiedades de alineación
 
 > Propiedades para la alineación de los items (elementos):
 
@@ -109,7 +113,9 @@ align-content: center;
 justify-self: end;
 ```
 
-## \***\*Propiedades de ubicación\*\***
+---
+
+## Propiedades de ubicación
 
 Podemos modificar el espacio que utiliza una celda y su posición secuencial.
 
@@ -117,9 +123,39 @@ Podemos modificar el espacio que utiliza una celda y su posición secuencial.
 
 Grid-area: nos permite definir en una sola lineá donde comienza y termina tanto en columnas como en filas. También podemos darle nombre a las zonas con esta propiedad.
 
-[**Power ups de Grid**](CSS%20Grid%204729379fd2af441a8b182a50d0bd904b/Power%20ups%20de%20Grid%20934cc5e82d31417dbe2b7b6e92949f11.md)
+---
 
-[Proyecto](CSS%20Grid%204729379fd2af441a8b182a50d0bd904b/Proyecto%20c365899da3a84aa28e3359a45cbae4f1.md)
+# Power ups de Grid
+
+# Funciones especiales
+
+- minmax: ayuda a declarar el tamaño mínimo y máximo para el ancho y alto de una celda, sin depender del contenido que tengamos en ella
+- repeat : se usa cuando todas las columnas o filas tienen el mismo ancho y evitar repetir el tamaño de las columnas
+
+```css
+grid-template-columns: minmax(30px, 300px) 200px minmax(60px, 150px);
+grid-template-rows: repeat(3, auto);
+```
+
+![Untitled](CSS%20Grid%204729379fd2af441a8b182a50d0bd904b/Power%20ups%20de%20Grid%20934cc5e82d31417dbe2b7b6e92949f11/Untitled.png)
+
+---
+
+# **KEYWORDS ESPECIALES**
+
+- fr : Es una unidad de medida especial de css grid para darle ancho o alto a filas y columnas 1fr representa una fracción del total de columnas o filas.
+- min-content : Ajusta el ancho de la celda lo mínimo posible sin romper su contenido.
+- max-content : Ajusta el ancho de la celda lo máximo posible para mostrar su contenido.
+- auto-fill : Agrega columnas “fantasma” que rellenan el espacio sobrante del contenedor.
+- auto-fit : Ensancha las columnas para que ocupen todo el espacio del contenedor.
+
+**auto-fill y auto-fit** ayudan a la grilla a ocupar el 100% del espacio disponible.
+
+```css
+grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+```
+
+---
 
 ## Available Scripts
 
