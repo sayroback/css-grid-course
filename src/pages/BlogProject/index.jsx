@@ -12,10 +12,10 @@ export const BlogProject = () => {
       </header>
       <main className="home-main">
         <section>
-          <p className="home-main-text">
+          <p className="home-main__text">
             Conoce las novedades y noticias del mundo Tech
           </p>
-          <button className="home-main-button">
+          <button className="home-main__button">
             <a href="/">Entra</a>
           </button>
         </section>
