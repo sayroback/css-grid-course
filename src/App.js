@@ -12,6 +12,7 @@ import { Lessons4 } from "./pages/Lessons/Lessons4";
 import { Lessons5 } from "./pages/Lessons/Lessons5";
 import { BlogProject } from "./pages/BlogProject";
 import { LessonsPro } from "./pages/LessonsPro";
+import { Blogs } from "./pages/BlogProject/Blogs";
 
 function App() {
   return (
@@ -35,7 +36,10 @@ function App() {
           <Route path="5" element={<Lessons5 />} /> */}
           <Route index element={<LessonsPro />} />
         </Route>
-        <Route path="project" element={<BlogProject />} />
+        <Route path="project">
+          <Route path="blogs" element={<Blogs />}></Route>
+          <Route index element={<BlogProject />}></Route>
+        </Route>
       </Routes>
     </BrowserRouter>
   );
