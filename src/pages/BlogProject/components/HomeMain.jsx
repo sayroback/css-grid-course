@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const HomeMain = () => {
   return (
@@ -8,7 +9,7 @@ export const HomeMain = () => {
           Conoce las novedades y noticias del mundo Tech
         </p>
         <button className="home-main__button">
-          <a href="/project/blogs">Entra</a>
+          <Link to="/project/blogs">Entra</Link>
         </button>
       </section>
     </main>

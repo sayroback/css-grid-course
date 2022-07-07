@@ -6,7 +6,7 @@ import { HomeMain } from "./components/HomeMain";
 
 export const BlogProject = () => {
   return (
-    <div className="body-blog">
+    <div className="body-blog main">
       <header>
         <HeaderBlog />
         <NavBlog />
