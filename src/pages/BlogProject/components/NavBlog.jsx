@@ -11,7 +11,7 @@ export const NavBlog = () => {
           </a>
         </section>
         <section className="profile-link">
-          <a href="project/perfil">Sobre mi</a>
+          <a href="../project/perfil">Sobre mi</a>
         </section>
       </nav>
     </>

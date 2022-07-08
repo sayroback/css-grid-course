@@ -56,3 +56,33 @@
     }
   }
 }
+
+@media (max-width: 900px) {
+  .blogs-main {
+    &__news-container {
+      &__new {
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+
+        &__img-container {
+          grid-row: 2;
+        }
+      }
+      &__info {
+        grid-column: 1;
+        grid-row: 3;
+      }
+    }
+    &__posts-container {
+      &__post {
+        max-width: 45%;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .blogs-main__posts-container__post {
+    max-width: 95%;
+  }
+}
