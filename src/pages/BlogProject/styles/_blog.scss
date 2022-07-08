@@ -1,0 +1,24 @@
+.blog-post {
+  &__img {
+    padding: 0 50px 40px;
+    img {
+      width: 100%;
+    }
+  }
+  &__main-container {
+    padding: 0 50px 40px;
+    h3 {
+      border-bottom: 1px solid #cdd2cd;
+      padding-bottom: 20px;
+    }
+    article {
+      h1 {
+        padding: 12px 0;
+        font-size: 35px;
+      }
+      p {
+        padding: 4px 0;
+      }
+    }
+  }
+}

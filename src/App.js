@@ -2,7 +2,6 @@ import React from "react";
 import "./styles/lessons-styles.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
-import { Home } from "./pages/Home";
 import { Lessons } from "./pages/Lessons";
 import { LessonsPro1 } from "./pages/LessonsPro/LessonsPro1";
 import { Lessons1 } from "./pages/Lessons/Lessons1";
@@ -21,7 +20,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Lessons />} />
         <Route path="lessons">
           <Route path="1" element={<Lessons1 />} />
           <Route path="2" element={<Lessons2 />} />
