@@ -14,6 +14,7 @@ import { BlogProject } from "./pages/BlogProject";
 import { LessonsPro } from "./pages/LessonsPro";
 import { Blogs } from "./pages/BlogProject/Blogs";
 import { Blog } from "./pages/BlogProject/Blog";
+import { Perfil } from "./pages/BlogProject/Perfil";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="project">
           <Route path="blogs" element={<Blogs />}></Route>
           <Route path="blog" element={<Blog />}></Route>
+          <Route path="perfil" element={<Perfil />}></Route>
           <Route index element={<BlogProject />}></Route>
         </Route>
       </Routes>

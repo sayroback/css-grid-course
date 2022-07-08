@@ -1,17 +1,12 @@
 import React from "react";
 import "./styles/blog-project.scss";
-import { HeaderBlog } from "./components/HeaderBlog";
-import { NavBlog } from "./components/NavBlog";
 import { HomeMain } from "./components/HomeMain";
+import { LayoutBlog } from "./components/LayoutBlog";
 
 export const BlogProject = () => {
   return (
-    <div className="body-blog main">
-      <header>
-        <HeaderBlog />
-        <NavBlog />
-      </header>
+    <LayoutBlog className={"main"}>
       <HomeMain />
-    </div>
+    </LayoutBlog>
   );
 };

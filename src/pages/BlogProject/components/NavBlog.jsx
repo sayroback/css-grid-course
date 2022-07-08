@@ -6,7 +6,7 @@ export const NavBlog = () => {
     <>
       <nav>
         <section className="nav-logo-container">
-          <a href="/">
+          <a href="/project">
             <img src={logoBlogNegro} alt="Logo del blog" />
           </a>
         </section>
