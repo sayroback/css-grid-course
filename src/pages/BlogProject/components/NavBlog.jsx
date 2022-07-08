@@ -11,7 +11,13 @@ export const NavBlog = () => {
           </a>
         </section>
         <section className="profile-link">
-          <a href="../project/perfil">Sobre mi</a>
+          <a
+            href="https://www.linkedin.com/in/juan-manuel-calder%C3%B3n-robles-ab950993"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Sobre mi
+          </a>
         </section>
       </nav>
     </>

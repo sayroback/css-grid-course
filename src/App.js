@@ -20,7 +20,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Lessons />} />
+        <Route path="/" element={<BlogProject />} />
         <Route path="lessons">
           <Route path="1" element={<Lessons1 />} />
           <Route path="2" element={<Lessons2 />} />

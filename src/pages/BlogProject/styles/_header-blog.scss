@@ -13,17 +13,19 @@
   }
 
   header .header-icons-container .icons {
-    width: 300px;
     height: auto;
     display: flex;
     justify-items: flex-end;
     align-items: center;
-    justify-content: space-between;
     justify-self: end;
-    margin-right: 50px;
+
+    a {
+      margin-right: 16px;
+      height: 35px;
+    }
   }
 
-  header .icons span {
-    color: white;
+  header .icons p {
+    display: none;
   }
 }

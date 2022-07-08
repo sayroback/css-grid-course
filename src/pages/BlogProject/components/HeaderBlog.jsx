@@ -1,24 +1,25 @@
 import React from "react";
+import { GitHubIcon } from "./icons/GitHubIcon";
+import LinkedInIcon from "./icons/LinkedInIcon";
 
 export const HeaderBlog = () => {
   return (
     <>
       <section className="header-icons-container">
         <div className="icons">
-          <a href="/">
-            <span className="flaticon-011-instagram"></span>
+          <a
+            href="https://www.linkedin.com/in/juan-manuel-calder%C3%B3n-robles-ab950993"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <LinkedInIcon />
           </a>
-          <a href="/">
-            <span className="flaticon-001-facebook"></span>
-          </a>
-          <a href="/">
-            <span className="flaticon-002-twitter"></span>
-          </a>
-          <a href="/">
-            <span className="flaticon-008-youtube"></span>
-          </a>
-          <a href="/">
-            <span className="flaticon-010-linkedin"></span>
+          <a
+            href="https://github.com/sayroback"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            <GitHubIcon />
           </a>
         </div>
       </section>

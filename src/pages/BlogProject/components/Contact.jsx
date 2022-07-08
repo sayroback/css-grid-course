@@ -8,7 +8,13 @@ export const Contact = () => {
       <div className="contact-main__left">
         <img src={Contacto} alt="" />
         <div>
-          <a href="/">Contacto</a>
+          <a
+            href="https://www.linkedin.com/in/juan-manuel-calder%C3%B3n-robles-ab950993"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Contacto
+          </a>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
             voluptates.
@@ -18,7 +24,13 @@ export const Contact = () => {
       <div className="contact-main__right">
         <img src={Escribe} alt="" />
         <div>
-          <a href="/">Escribe</a>
+          <a
+            href="https://www.linkedin.com/in/juan-manuel-calder%C3%B3n-robles-ab950993"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            Escribe
+          </a>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
             voluptates.
