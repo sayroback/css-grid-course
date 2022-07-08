@@ -1,5 +1,7 @@
 import React from "react";
 import MainNews from "../assets/img/main-news-img.png";
+import Contacto from "../assets/img/013-newsletter.png";
+import Escribe from "../assets/img/006-like.png";
 
 export const BlogMain = () => {
   return (
@@ -35,7 +37,7 @@ export const BlogMain = () => {
       </section>
       <section className="contact-main">
         <div className="contact-main__left">
-          <img src="" alt="" />
+          <img src={Contacto} alt="" />
           <div>
             <a href="/">Contacto</a>
             <p>
@@ -45,7 +47,7 @@ export const BlogMain = () => {
           </div>
         </div>
         <div className="contact-main__right">
-          <img src="" alt="" />
+          <img src={Escribe} alt="" />
           <div>
             <a href="/">Escribe</a>
             <p>

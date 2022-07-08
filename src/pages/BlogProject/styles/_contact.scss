@@ -1,0 +1,32 @@
+.contact-main {
+  width: 100%;
+  min-height: 250px;
+  background-color: #e6e9ed;
+  text-align: center;
+  padding-bottom: 50px;
+  div {
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+    img {
+      width: 100px;
+      margin-right: 18px;
+    }
+    a {
+      text-decoration: none;
+      border-bottom: 1px solid black;
+      padding-bottom: 5px;
+    }
+    p {
+      padding-top: 12px;
+    }
+  }
+  &__right {
+    text-align: initial;
+    margin-top: 85px;
+  }
+  &__left {
+    text-align: initial;
+    margin-top: 85px;
+  }
+}
