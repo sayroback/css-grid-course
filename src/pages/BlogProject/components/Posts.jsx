@@ -11,7 +11,7 @@ export const Posts = () => {
         deserunt voluptatum fugiat doloremque! Quaerat illo eaque inventore
         voluptates.
       </p>
-      <a className="blogs-button" href="">
+      <a className="blogs-button" href="/project/blog">
         Leer más
       </a>
     </article>

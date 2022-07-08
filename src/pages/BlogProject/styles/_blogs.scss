@@ -1,3 +1,7 @@
+.grid-container {
+  max-width: 980px;
+  margin: auto;
+}
 .blogs-main {
   display: grid;
   &__news-container {
@@ -8,6 +12,9 @@
       display: grid;
       grid-template-columns: 2fr 1fr;
       grid-template-rows: 2fr;
+      h3 {
+        padding: 14px 0;
+      }
       &__img-container {
         grid-column: 1;
         img {
@@ -28,6 +35,11 @@
       border-bottom: 1px solid #cdd2da;
       padding-bottom: 20px;
       text-align: center;
+    }
+    &__posts {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
     }
     &__post {
       display: inline-block;
