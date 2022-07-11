@@ -37,3 +37,22 @@ body {
   padding-top: 10px;
   box-sizing: border-box;
 }
+
+.buttons-lessons {
+  width: 90px;
+  height: 40px;
+  background-color: white;
+  border: 2px solid rgb(105, 230, 101);
+  border-radius: 6px;
+  cursor: pointer;
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+  }
+}
+.buttons-lessons:hover {
+  background-color: rgba(209, 240, 206, 0.212);
+}

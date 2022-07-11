@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.l5--pro__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgb(175, 240, 192);
+  height: 500px;
+  width: 500px;
+  &__contenedor {
+    background: turquoise;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+
+    &__item {
+      @extend .item;
+      color: aliceblue;
+      font-size: 32px;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .--2c {
+    background-color: rgb(41, 179, 167);
+  }
+}

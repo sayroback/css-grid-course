@@ -1,13 +1,17 @@
 import React from "react";
 import { LayoutLessonsPro } from "./LayoutLessonsPro";
-import { LessonUI } from "./LessonUI";
+import { WritingMode } from "./WritingMode";
 
 export const LessonsPro2 = () => {
   return (
     <LayoutLessonsPro>
-      <LessonUI
+      <WritingMode
         Lesson={"5--pro"}
-        Title={"Modos de escritura y ejes de alineamiento + Reto"}
+        Title={"Modos de escritura y ejes de alineamiento Flex Box"}
+      />
+      <WritingMode
+        Lesson={"6--pro"}
+        Title={"Modos de escritura y ejes de alineamiento Grid"}
       />
     </LayoutLessonsPro>
   );
