@@ -12,6 +12,7 @@ import { BlogProject } from "./pages/BlogProject";
 import { LessonsPro } from "./pages/LessonsPro";
 import { LessonsPro1 } from "./pages/LessonsPro/LessonsPro1";
 import { LessonsPro2 } from "./pages/LessonsPro/LessonsPro2";
+import { LessonsPro3 } from "./pages/LessonsPro/LessonsPro3";
 import { Blogs } from "./pages/BlogProject/Blogs";
 import { Blog } from "./pages/BlogProject/Blog";
 import { Perfil } from "./pages/BlogProject/Perfil";
@@ -33,6 +34,7 @@ function App() {
         <Route path="lessons-pro">
           <Route path="1" element={<LessonsPro1 />} />
           <Route path="2" element={<LessonsPro2 />} />
+          <Route path="3" element={<LessonsPro3 />} />
           <Route index element={<LessonsPro />} />
         </Route>
         <Route path="project">

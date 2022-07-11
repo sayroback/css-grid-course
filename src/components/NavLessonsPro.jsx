@@ -18,9 +18,12 @@ export const NavLessonsPro = () => {
             Modos de escritura y ejes de alineamiento + Reto
           </NavLink>
         </li>
-        {/* <li>
-          <NavLink to="/lessons-pro/3">Lessons 5 y 6</NavLink>
+        <li>
+          <NavLink to="/lessons-pro/3">
+            Técnicas de alineamiento con Flexbox
+          </NavLink>
         </li>
+        {/* 
         <li>
           <NavLink to="/lessons-pro/4">Lessons 7 y 8</NavLink>
         </li>

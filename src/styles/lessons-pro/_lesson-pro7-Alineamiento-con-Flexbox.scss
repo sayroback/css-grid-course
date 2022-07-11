@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.l7--pro__wrapper {
+  @extend .wrapper;
+  .--1c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .--2c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .--3c {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .--4c {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .--5c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .--6c {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .--7c {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .--8c {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .--9c {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  &__contenedor {
+    @extend .contenedor;
+    &__item {
+      @extend .item;
+    }
+    .--1i,
+    .--2i,
+    .--3i {
+      background: papayawhip;
+    }
+    .--4i,
+    .--5i,
+    .--6i {
+      background: pink;
+    }
+    .--7i,
+    .--8i,
+    .--9i {
+      background: lightcyan;
+    }
+  }
+}
