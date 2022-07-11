@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.l2--pro__wrapper {
+  @extend .wrapper;
+
+  &__contenedor {
+    @extend .contenedor;
+    &__item {
+      @extend .item;
+    }
+    .--1i {
+      background: papayawhip;
+      display: inline-block;
+      line-height: 45px;
+      vertical-align: top;
+    }
+    .--2i {
+      background: papayawhip;
+      display: inline-block;
+      line-height: 20px;
+      vertical-align: middle;
+    }
+    .--3i {
+      background: papayawhip;
+      display: inline-block;
+      line-height: 20px;
+      vertical-align: bottom;
+    }
+    .--4i {
+      background: pink;
+      display: inline-block;
+      line-height: 20px;
+      vertical-align: top;
+    }
+    .--5i {
+      background: pink;
+      display: inline-block;
+      line-height: 20px;
+      vertical-align: baseline;
+    }
+    .--6i {
+      background: pink;
+      display: inline-block;
+      line-height: 20px;
+      vertical-align: bottom;
+    }
+    .--7i {
+      background: lightcyan;
+      display: inline-block;
+      line-height: 20px;
+      vertical-align: top;
+    }
+    .--8i {
+      background: lightcyan;
+      display: inline-block;
+      line-height: 20px;
+      vertical-align: baseline;
+    }
+    .--9i {
+      background: lightcyan;
+      display: inline-block;
+      line-height: 20px;
+      vertical-align: bottom;
+    }
+  }
+  .--1c,
+  .--2c,
+  .--3c {
+    text-align: left;
+    line-height: 180px;
+  }
+  .--4c,
+  .--5c,
+  .--6c {
+    text-align: center;
+    line-height: 180px;
+  }
+  .--7c,
+  .--8c,
+  .--9c {
+    text-align: right;
+    line-height: 180px;
+  }
+}

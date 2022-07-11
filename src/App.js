@@ -3,7 +3,6 @@ import "./styles/lessons-styles.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from "./components/Navbar";
 import { Lessons } from "./pages/Lessons";
-import { LessonsPro1 } from "./pages/LessonsPro/LessonsPro1";
 import { Lessons1 } from "./pages/Lessons/Lessons1";
 import { Lessons2 } from "./pages/Lessons/Lessons2";
 import { Lessons3 } from "./pages/Lessons/Lessons3";
@@ -11,6 +10,8 @@ import { Lessons4 } from "./pages/Lessons/Lessons4";
 import { Lessons5 } from "./pages/Lessons/Lessons5";
 import { BlogProject } from "./pages/BlogProject";
 import { LessonsPro } from "./pages/LessonsPro";
+import { LessonsPro1 } from "./pages/LessonsPro/LessonsPro1";
+import { LessonsPro2 } from "./pages/LessonsPro/LessonsPro2";
 import { Blogs } from "./pages/BlogProject/Blogs";
 import { Blog } from "./pages/BlogProject/Blog";
 import { Perfil } from "./pages/BlogProject/Perfil";
@@ -31,6 +32,7 @@ function App() {
         </Route>
         <Route path="lessons-pro">
           <Route path="1" element={<LessonsPro1 />} />
+          <Route path="2" element={<LessonsPro2 />} />
           <Route index element={<LessonsPro />} />
         </Route>
         <Route path="project">

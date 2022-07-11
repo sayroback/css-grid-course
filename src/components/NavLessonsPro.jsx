@@ -9,19 +9,19 @@ export const NavLessonsPro = () => {
           <NavLink to="/lessons-pro">Index</NavLink>
         </li>
         <li>
-          <NavLink to="/lessons-pro/1">Lessons1</NavLink>
+          <NavLink to="/lessons-pro/1">Lessons 1 y 2</NavLink>
         </li>
         <li>
-          <NavLink to="/lessons-pro/2">Lessons2</NavLink>
+          <NavLink to="/lessons-pro/2">Lessons 3 y 4</NavLink>
         </li>
         <li>
-          <NavLink to="/lessons-pro/3">Lessons3</NavLink>
+          <NavLink to="/lessons-pro/3">Lessons 5 y 6</NavLink>
         </li>
         <li>
-          <NavLink to="/lessons-pro/4">Lessons4</NavLink>
+          <NavLink to="/lessons-pro/4">Lessons 7 y 8</NavLink>
         </li>
         <li>
-          <NavLink to="/lessons-pro/5">Lessons5</NavLink>
+          <NavLink to="/lessons-pro/5">Lessons 9 y 10</NavLink>
         </li>
       </ol>
     </nav>
