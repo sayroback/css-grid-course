@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.l3--pro__wrapper {
+  .--1c {
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+  }
+  .--2c {
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+  }
+  .--3c {
+    display: table-cell;
+    text-align: left;
+    vertical-align: bottom;
+  }
+  .--4c {
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+  }
+  .--5c {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .--6c {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+  }
+  .--7c {
+    display: table-cell;
+    text-align: right;
+    vertical-align: top;
+  }
+  .--8c {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .--9c {
+    display: table-cell;
+    text-align: right;
+    vertical-align: bottom;
+  }
+
+  &__contenedor {
+    @extend .contenedor;
+    &__item {
+      @extend .item;
+    }
+    .--1i,
+    .--2i,
+    .--3i {
+      display: inline-block;
+      background: papayawhip;
+    }
+    .--4i,
+    .--5i,
+    .--6i {
+      display: inline-block;
+      background: pink;
+    }
+    .--7i,
+    .--8i,
+    .--9i {
+      display: inline-block;
+      background: lightcyan;
+    }
+  }
+}

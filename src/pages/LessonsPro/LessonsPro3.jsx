@@ -5,10 +5,7 @@ import { LessonUI } from "./LessonUI";
 export const LessonsPro2 = () => {
   return (
     <LayoutLessonsPro>
-      <LessonUI
-        Lesson={"5--pro"}
-        Title={"Modos de escritura y ejes de alineamiento + Reto"}
-      />
+      <LessonUI Lesson={""} Title={"Propiedades del contenedor"} />
     </LayoutLessonsPro>
   );
 };

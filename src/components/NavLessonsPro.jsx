@@ -9,12 +9,16 @@ export const NavLessonsPro = () => {
           <NavLink to="/lessons-pro">Index</NavLink>
         </li>
         <li>
-          <NavLink to="/lessons-pro/1">Lessons 1 y 2</NavLink>
+          <NavLink to="/lessons-pro/1">
+            Técnicas de alineamiento antes de CSS Grid
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/lessons-pro/2">Lessons 3 y 4</NavLink>
+          <NavLink to="/lessons-pro/2">
+            Modos de escritura y ejes de alineamiento + Reto
+          </NavLink>
         </li>
-        <li>
+        {/* <li>
           <NavLink to="/lessons-pro/3">Lessons 5 y 6</NavLink>
         </li>
         <li>
@@ -22,7 +26,7 @@ export const NavLessonsPro = () => {
         </li>
         <li>
           <NavLink to="/lessons-pro/5">Lessons 9 y 10</NavLink>
-        </li>
+        </li> */}
       </ol>
     </nav>
   );
