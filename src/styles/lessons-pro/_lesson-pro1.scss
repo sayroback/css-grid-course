@@ -1,51 +1,57 @@
-.l1--pro {
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.l1--pro__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  font-family: "Lato", sans-serif;
+  width: 550px;
   &__contenedor {
-    border: 5px solid #e1bee7;
-    background-color: #fff1ff;
-
-    display: grid;
-    // grid-template-columns: 100px 200px 300px; //define columnas (tamaño y numero)
-    // grid-template-rows: 150px 250px; //define filas (tamaño y numero)
-    // grid-auto-rows: 150px; //define filas de un tamaño definido pero la cantidad sera automática.
-    grid-auto-flow: column;
-    grid-template-rows: 100px 200px;
-    grid-auto-columns: 100px;
-    // row-gap: 30px;
-    // column-gap: 30px;
-    gap: 30px;
-
+    background: turquoise;
+    width: 180px;
+    height: 180px;
     &__item {
-      border: 5px solid #00bcd4;
-      font-size: 4rem;
+      width: 60px;
+      height: 60px;
+      text-align: center;
+      padding-top: 10px;
+      box-sizing: border-box;
     }
-  }
-}
-
-.reto-l1--pro {
-  &__contenedor {
-    width: 300px;
-    border: 5px solid #e1bee7;
-    background-color: #fff1ff;
-
-    display: grid;
-    place-content: center center;
-    // grid-template-columns: 100px 200px 300px; //define columnas (tamaño y numero)
-    // grid-template-rows: 150px 250px; //define filas (tamaño y numero)
-    grid-template-rows: 110px 110px 110px; //define filas de un tamaño definido pero la cantidad sera automática.
-    grid-auto-flow: column;
-    // grid-template-rows: 100px 200px;
-    grid-template-columns: 110px 110px;
-    // row-gap: 30px;
-    // column-gap: 30px;
-    gap: 30px;
-
-    &__item {
-      display: grid;
-      border: 5px solid #00bcd4;
-      font-size: 4rem;
-      width: 100px;
-      height: 100px;
-      place-items: end end;
+    .--1 {
+      background: papayawhip;
+      // margin: ;
+    }
+    .--2 {
+      background: papayawhip;
+      // margin: ;
+    }
+    .--3 {
+      background: papayawhip;
+      // margin: ;
+    }
+    .--4 {
+      background: pink;
+      // margin: ;
+    }
+    .--5 {
+      background: pink;
+      // margin: ;
+    }
+    .--6 {
+      background: pink;
+      // margin: ;
+    }
+    .--7 {
+      background: lightcyan;
+      // margin: ;
+    }
+    .--8 {
+      background: lightcyan;
+      // margin: ;
+    }
+    .--9 {
+      background: lightcyan;
+      // margin: ;
     }
   }
 }

@@ -4,22 +4,52 @@ export const LessonUI = ({ Lesson, Title }) => {
   return (
     <>
       <h1 className="Title">{`Lessons ${Lesson}: ${Title}`}</h1>
-      <div className={`l${Lesson}__contenedor`}>
-        <div className={`l${Lesson}__contenedor__item --1`}>1</div>
-        <div className={`l${Lesson}__contenedor__item --2`}>2</div>
-        <div className={`l${Lesson}__contenedor__item --3`}>3</div>
-        <div className={`l${Lesson}__contenedor__item --4`}>4</div>
-        <div className={`l${Lesson}__contenedor__item --5`}>5</div>
-        <div className={`l${Lesson}__contenedor__item --6`}>6</div>
-      </div>
-      <h2 className="Title">{`Reto ${Lesson}`}</h2>
-      <div className={`reto-l${Lesson}__contenedor`}>
-        <div className={`reto-l${Lesson}__contenedor__item --1`}>1</div>
-        <div className={`reto-l${Lesson}__contenedor__item --2`}>2</div>
-        <div className={`reto-l${Lesson}__contenedor__item --3`}>3</div>
-        <div className={`reto-l${Lesson}__contenedor__item --4`}>4</div>
-        <div className={`reto-l${Lesson}__contenedor__item --5`}>5</div>
-        <div className={`reto-l${Lesson}__contenedor__item --6`}>6</div>
+      <div className={`l${Lesson}__wrapper`}>
+        <div className={`l${Lesson}__wrapper__contenedor`}>
+          <div className={`l${Lesson}__wrapper__contenedor__item --1`}>
+            top left
+          </div>
+        </div>
+        <div className={`l${Lesson}__wrapper__contenedor`}>
+          <div className={`l${Lesson}__wrapper__contenedor__item --1`}>
+            center left
+          </div>
+        </div>
+        <div className={`l${Lesson}__wrapper__contenedor`}>
+          <div className={`l${Lesson}__wrapper__contenedor__item --1`}>
+            bottom left
+          </div>
+        </div>
+        <div className={`l${Lesson}__wrapper__contenedor`}>
+          <div className={`l${Lesson}__wrapper__contenedor__item --1`}>
+            top center
+          </div>
+        </div>
+        <div className={`l${Lesson}__wrapper__contenedor`}>
+          <div className={`l${Lesson}__wrapper__contenedor__item --1`}>
+            center center
+          </div>
+        </div>
+        <div className={`l${Lesson}__wrapper__contenedor`}>
+          <div className={`l${Lesson}__wrapper__contenedor__item --1`}>
+            bottom center
+          </div>
+        </div>
+        <div className={`l${Lesson}__wrapper__contenedor`}>
+          <div className={`l${Lesson}__wrapper__contenedor__item --1`}>
+            top right
+          </div>
+        </div>
+        <div className={`l${Lesson}__wrapper__contenedor`}>
+          <div className={`l${Lesson}__wrapper__contenedor__item --1`}>
+            center right
+          </div>
+        </div>
+        <div className={`l${Lesson}__wrapper__contenedor`}>
+          <div className={`l${Lesson}__wrapper__contenedor__item --1`}>
+            bottom right
+          </div>
+        </div>
       </div>
     </>
   );
