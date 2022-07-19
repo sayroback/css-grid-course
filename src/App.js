@@ -16,6 +16,7 @@ import { LessonsPro3 } from "./pages/LessonsPro/LessonsPro3";
 import { Blogs } from "./pages/BlogProject/Blogs";
 import { Blog } from "./pages/BlogProject/Blog";
 import { Perfil } from "./pages/BlogProject/Perfil";
+import { PortadaProject } from "./pages/PortadaProject";
 
 function App() {
   return (
@@ -42,6 +43,9 @@ function App() {
           <Route path="blog" element={<Blog />}></Route>
           <Route path="perfil" element={<Perfil />}></Route>
           <Route index element={<BlogProject />}></Route>
+        </Route>
+        <Route path="portada">
+          <Route index element={<PortadaProject />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
